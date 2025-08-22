@@ -1,3 +1,4 @@
+import Userlogin ,{Profile ,Setting, userkey} from './usercomponents'
 function App() {
   return (
     /*
@@ -11,7 +12,11 @@ function App() {
         <Demo />
         <Demo2 />
         <Comp />
-         <h1>{func()}</h1>   {/* yeh line func() ka return UI me dikhayegi */}
+        <Userlogin />
+        <Profile />
+        <Setting />
+        <h1>{userkey}</h1>
+        <h1>{func()}</h1>   {/* yeh line func() ka return UI me dikhayegi */}
     </div>
   
   )
