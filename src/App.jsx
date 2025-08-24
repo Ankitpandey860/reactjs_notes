@@ -1,3 +1,6 @@
+import ToDo from './todo'
+import Funcc from './funtions'
+import Variables from'./variableandsomedatatypes'
 import Userlogin ,{Profile ,Setting, userkey} from './usercomponents'
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Userlogin />
         <Profile />
         <Setting />
+        <ToDo />
+        <Variables />
+        <Funcc />
         <h1>{userkey}</h1>
         <h1>{func()}</h1>   {/* yeh line func() ka return UI me dikhayegi */}
     </div>
@@ -47,7 +53,7 @@ function Comp(){            /* DIFFERENCE BETWEEN FUNCTION AND COMPONENT */
   )
 }
 function func(){
-  /*console.log(" so this is a function where we can we js , for function the first name of letter is in small 
+  /*(" so this is a function where we can we js , for function the first name of letter is in small 
   and that is how compiler difference between them")*/      
   /*yeh isiliye use nhi krra kyuki console log browser ke console pe krtaa haii na ki screen pe */
 

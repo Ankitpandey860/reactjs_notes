@@ -23,3 +23,8 @@ export function Setting(){
     )
 }
 export const userkey= "abc";
+/*jsx kya hota hai    ----- yeh bhi bs js ka hi extension h i.e. uska syntax use kr skte hai proper js hi tha but isme thode updates krke ise usse alag bna diya gya jaise isme html bhi ab likh skte hai */  
+/*jsx   = js + html s
+
+jsx stands for javascript syntax extension    at some websites and resources , books it is also defined as javascript xml 
+but in official documentation it is never mentioned */
