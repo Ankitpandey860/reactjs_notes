@@ -2,6 +2,8 @@ import ToDo from './todo'
 import Funcc from './funtions'
 import Variables from'./variableandsomedatatypes'
 import Userlogin ,{Profile ,Setting, userkey} from './usercomponents'
+import State from './state'
+import Toggle from './toggle'
 function App() {
   return (
     /*
@@ -21,6 +23,8 @@ function App() {
         <ToDo />
         <Variables />
         <Funcc />
+        <State />
+        <Toggle />
         <h1>{userkey}</h1>
         <h1>{func()}</h1>   {/* yeh line func() ka return UI me dikhayegi */}
     </div>
