@@ -5,7 +5,14 @@ import Userlogin ,{Profile ,Setting, userkey} from './usercomponents'
 import State from './state'
 import Toggle from './toggle'
 import Condition from './conditions'
+import User from './props'
 function App() {
+  /*  let email="ankitp6040@gmail.com"/* propssss ke liyeeeee*/
+  let userObj={
+    name:"ankit pandey",
+    age:19,
+    email:"ankitp6040@gmail.com"
+  }
   return (
     /*
       <h1>hello world</h1>
@@ -15,6 +22,7 @@ function App() {
     <div>
       <h1> we are in correct block</h1>
       <h1>no error found </h1>
+        {/*
         <Demo />
         <Demo2 />
         <Comp />
@@ -27,8 +35,13 @@ function App() {
         <State />
         <Toggle />
         <Condition />
+        */}
+        
         <h1>{userkey}</h1>
         <h1>{func()}</h1>   {/* yeh line func() ka return UI me dikhayegi */}
+      
+      {/*  <User name ="ankit pandey" age ={19} email={email}/> {/* yeh haii props me value pass ki haii dekho waha */}
+          <User User={userObj}></User>
     </div>
   
   )
