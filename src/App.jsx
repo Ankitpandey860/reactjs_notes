@@ -6,6 +6,8 @@ import State from './state'
 import Toggle from './toggle'
 import Condition from './conditions'
 import User from './props'
+import Cont from './controlledcomponent'
+import Checkboxes from './handlecheckbox'
 function App() {
   /*  let email="ankitp6040@gmail.com"/* propssss ke liyeeeee*/
   let userObj={
@@ -35,13 +37,15 @@ function App() {
         <State />
         <Toggle />
         <Condition />
+        <h1>{userkey}</h1>
+        <h1>{func()}</h1>   {/* yeh line func() ka return UI me dikhayegi      /
+      
+        <User name ="ankit pandey" age ={19} email={email}/> {/* yeh haii props me value pass ki haii dekho waha     /
+          <User User={userObj}></User>
         */}
         
-        <h1>{userkey}</h1>
-        <h1>{func()}</h1>   {/* yeh line func() ka return UI me dikhayegi */}
-      
-      {/*  <User name ="ankit pandey" age ={19} email={email}/> {/* yeh haii props me value pass ki haii dekho waha */}
-          <User User={userObj}></User>
+        <Cont />
+        <Checkboxes />
     </div>
   
   )
