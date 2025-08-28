@@ -8,6 +8,8 @@ import Condition from './conditions'
 import User from './props'
 import Cont from './controlledcomponent'
 import Checkboxes from './handlecheckbox'
+import Radio from './radio'
+import Loop from './loopandarray'
 function App() {
   /*  let email="ankitp6040@gmail.com"/* propssss ke liyeeeee*/
   let userObj={
@@ -42,10 +44,12 @@ function App() {
       
         <User name ="ankit pandey" age ={19} email={email}/> {/* yeh haii props me value pass ki haii dekho waha     /
           <User User={userObj}></User>
-        */}
+        *}
         
         <Cont />
-        <Checkboxes />
+        <Checkboxes />*/}
+        <Radio />
+        <Loop />
     </div>
   
   )
