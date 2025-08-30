@@ -10,6 +10,8 @@ import Cont from './controlledcomponent'
 import Checkboxes from './handlecheckbox'
 import Radio from './radio'
 import Loop from './loopandarray'
+import Reuse from './reusecomponentinloop'
+
 function App() {
   /*  let email="ankitp6040@gmail.com"/* propssss ke liyeeeee*/
   let userObj={
@@ -50,6 +52,7 @@ function App() {
         <Checkboxes />*/}
         <Radio />
         <Loop />
+        <Reuse />
     </div>
   
   )

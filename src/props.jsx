@@ -22,11 +22,17 @@ function User({name,age,email}){
 }
 export default User;
 */
+
+
+
+
+/*
 function User({User}){ 
 
     return(
         <div>
-            <hr></hr> {/*horizantal line laata haii*/}
+            <hr></hr>              */ {/*horizantal line laata haii*/}
+            /*
             <h1>user component</h1>
             <h1>name :{User.name}</h1>
             <h1>age :{User.age}</h1>
@@ -34,4 +40,4 @@ function User({User}){
         </div>
     )
 }
-export default User;
+export default User;*/
