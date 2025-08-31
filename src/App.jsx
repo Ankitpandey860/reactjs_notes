@@ -1,4 +1,4 @@
-import ToDo from './todo'
+/*import ToDo from './todo'
 import Funcc from './funtions'
 import Variables from'./variableandsomedatatypes'
 import Userlogin ,{Profile ,Setting, userkey} from './usercomponents'
@@ -7,18 +7,21 @@ import Toggle from './toggle'
 import Condition from './conditions'
 import User from './props'
 import Cont from './controlledcomponent'
-import Checkboxes from './handlecheckbox'
-import Radio from './radio'
+import Checkboxes from './handlecheckbox'*/
+/*import Radio from './radio'
 import Loop from './loopandarray'
-import Reuse from './reusecomponentinloop'
+import Reuse from './reusecomponentinloop'*/
+
+import Clock from "./clock";
+import Hook from "./hooks";
 
 function App() {
-  /*  let email="ankitp6040@gmail.com"/* propssss ke liyeeeee*/
+  /*  let email="ankitp6040@gmail.com"/* propssss ke liyeeeee*//*
   let userObj={
     name:"ankit pandey",
     age:19,
     email:"ankitp6040@gmail.com"
-  }
+  }*/
   return (
     /*
       <h1>hello world</h1>
@@ -26,6 +29,7 @@ function App() {
     */
    /*this is correct way */
     <div>
+      {/*
       <h1> we are in correct block</h1>
       <h1>no error found </h1>
         {/*
@@ -49,10 +53,12 @@ function App() {
         *}
         
         <Cont />
-        <Checkboxes />*/}
+        <Checkboxes />*//*}
         <Radio />
         <Loop />
         <Reuse />
+        <Clock />*/}
+        <Hook />
     </div>
   
   )
@@ -72,8 +78,8 @@ function Demo2(){
   </div>
   )
 }
-/* DIFFERENCE BETWEEN FUNCTION AND COMPONENT */
-function Comp(){            /* DIFFERENCE BETWEEN FUNCTION AND COMPONENT */
+/* DIFFERENCE BETWEEN FUNCTION AND COMPONENT *//*
+function Comp(){            /* DIFFERENCE BETWEEN FUNCTION AND COMPONENT *//*
   return(
     <div>
       <h1>this is component</h1>
@@ -85,8 +91,8 @@ function Comp(){            /* DIFFERENCE BETWEEN FUNCTION AND COMPONENT */
 function func(){
   /*(" so this is a function where we can we js , for function the first name of letter is in small 
   and that is how compiler difference between them")*/      
-  /*yeh isiliye use nhi krra kyuki console log browser ke console pe krtaa haii na ki screen pe */
+  /*yeh isiliye use nhi krra kyuki console log browser ke console pe krtaa haii na ki screen pe *//*
 
   return " so this is a function where we can we js , for function the first name of letter is in small and that is how compiler difference between them" ;
-}
+}*/
 export default App;
