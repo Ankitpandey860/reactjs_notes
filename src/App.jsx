@@ -12,8 +12,13 @@ import Checkboxes from './handlecheckbox'*/
 import Loop from './loopandarray'
 import Reuse from './reusecomponentinloop'*/
 
+import Changegrid from "./cardsty";
 import Clock from "./clock";
+import Counter from "./componentlifecycle";
+import Ext from "./externalstyle";
 import Hook from "./hooks";
+import Card from "./stylingReactcss";
+import Userprofile from "./userprofile";
 
 function App() {
   /*  let email="ankitp6040@gmail.com"/* propssss ke liyeeeee*//*
@@ -57,8 +62,13 @@ function App() {
         <Radio />
         <Loop />
         <Reuse />
-        <Clock />*/}
+        <Clock />
         <Hook />
+        <Counter />
+        <Card />
+        <Changegrid />
+        <Ext />*/}
+        <Userprofile />
     </div>
   
   )
