@@ -20,6 +20,8 @@ import Ext from "./externalstyle";
 import Hook from "./hooks";
 import Stcomp from "./styledcomponent";
 import Card from "./stylingReactcss";
+import Uncont from "./uncontrolledcomp";
+import Inputf from "./userefhook";
 import Userprofile from "./userprofile";
 
 function App() {
@@ -70,9 +72,11 @@ function App() {
         <Card />
         <Changegrid />
         <Ext />
-        <Userprofile />*/}
+        <Userprofile />
         <Stcomp />
         <Boot />
+        <Inputf />*/}
+        <Uncont />
     </div>
   
   )
