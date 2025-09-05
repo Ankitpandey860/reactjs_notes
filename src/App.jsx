@@ -18,6 +18,7 @@ import Clock from "./clock";
 import Counter from "./componentlifecycle";
 import Ext from "./externalstyle";
 import Hook from "./hooks";
+import Caller from "./passfuncasprops";
 import Stcomp from "./styledcomponent";
 import Card from "./stylingReactcss";
 import Uncont from "./uncontrolledcomp";
@@ -75,8 +76,9 @@ function App() {
         <Userprofile />
         <Stcomp />
         <Boot />
-        <Inputf />*/}
-        <Uncont />
+        <Inputf />
+        <Uncont />*/}
+        <Caller />
     </div>
   
   )
