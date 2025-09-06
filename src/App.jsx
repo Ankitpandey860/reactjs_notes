@@ -19,9 +19,11 @@ import Counter from "./componentlifecycle";
 import Ext from "./externalstyle";
 import Hook from "./hooks";
 import Caller from "./passfuncasprops";
+import Transition from "./reacttransitionhook";
 import Stcomp from "./styledcomponent";
 import Card from "./stylingReactcss";
 import Uncont from "./uncontrolledcomp";
+import Formstatus from "./useformstatushook";
 import Inputf from "./userefhook";
 import Userprofile from "./userprofile";
 
@@ -77,8 +79,10 @@ function App() {
         <Stcomp />
         <Boot />
         <Inputf />
-        <Uncont />*/}
+        <Uncont />
         <Caller />
+        <Formstatus />*/}
+        <Transition />
     </div>
   
   )
