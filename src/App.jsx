@@ -16,6 +16,7 @@ import Boot from "./bootsrap";
 import Changegrid from "./cardsty";
 import Clock from "./clock";
 import Counter from "./componentlifecycle";
+import DerivedState from "./derivedstate";
 import Ext from "./externalstyle";
 import Hook from "./hooks";
 import Caller from "./passfuncasprops";
@@ -81,8 +82,9 @@ function App() {
         <Inputf />
         <Uncont />
         <Caller />
-        <Formstatus />*/}
-        <Transition />
+        <Formstatus />
+        <Transition />*/}
+        <DerivedState />
     </div>
   
   )
