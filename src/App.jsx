@@ -12,13 +12,16 @@ import Checkboxes from './handlecheckbox'*/
 import Loop from './loopandarray'
 import Reuse from './reusecomponentinloop'*/
 
+import { useState } from "react";
 import Boot from "./bootsrap";
 import Changegrid from "./cardsty";
 import Clock from "./clock";
 import Counter from "./componentlifecycle";
 import DerivedState from "./derivedstate";
+import DisplayUser from "./displayuser";
 import Ext from "./externalstyle";
 import Hook from "./hooks";
+import AddUser from "./liftingstateup";
 import Caller from "./passfuncasprops";
 import Transition from "./reacttransitionhook";
 import Stcomp from "./styledcomponent";
@@ -27,6 +30,7 @@ import Uncont from "./uncontrolledcomp";
 import Formstatus from "./useformstatushook";
 import Inputf from "./userefhook";
 import Userprofile from "./userprofile";
+import Update from "./updatingobjectsinstate";
 
 function App() {
   /*  let email="ankitp6040@gmail.com"/* propssss ke liyeeeee*//*
@@ -35,6 +39,7 @@ function App() {
     age:19,
     email:"ankitp6040@gmail.com"
   }*/
+ const [user,SetUser]=useState('')
   return (
     /*
       <h1>hello world</h1>
@@ -83,8 +88,11 @@ function App() {
         <Uncont />
         <Caller />
         <Formstatus />
-        <Transition />*/}
+        <Transition />
         <DerivedState />
+        <AddUser SetUser={SetUser} />
+        <DisplayUser user={user} />*/}
+        <Update />
     </div>
   
   )
