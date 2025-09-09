@@ -31,6 +31,9 @@ import Formstatus from "./useformstatushook";
 import Inputf from "./userefhook";
 import Userprofile from "./userprofile";
 import Update from "./updatingobjectsinstate";
+import Arr from "./updatearrayinstate";
+import UseAction from "./useactionstate";
+
 
 function App() {
   /*  let email="ankitp6040@gmail.com"/* propssss ke liyeeeee*//*
@@ -91,8 +94,10 @@ function App() {
         <Transition />
         <DerivedState />
         <AddUser SetUser={SetUser} />
-        <DisplayUser user={user} />*/}
+        <DisplayUser user={user} />
         <Update />
+        <Arr />*/}
+        <UseAction />
     </div>
   
   )
