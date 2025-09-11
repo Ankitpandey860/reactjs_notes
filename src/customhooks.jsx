@@ -1,0 +1,3 @@
+/* jb humee koi functionality apne project me baar baar use krni hoti h toh hum custom hooks bna dete hai and unhe baar baar use krte hai
+
+jb bhi hook bnayenge use ke saath bnayenge */

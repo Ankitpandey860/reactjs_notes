@@ -33,6 +33,9 @@ import Userprofile from "./userprofile";
 import Update from "./updatingobjectsinstate";
 import Arr from "./updatearrayinstate";
 import UseAction from "./useactionstate";
+import College from "./contextApi";
+import { subjectContext } from "./ContextData";
+import Toggle from "./usetoggle2";
 
 
 function App() {
@@ -43,6 +46,7 @@ function App() {
     email:"ankitp6040@gmail.com"
   }*/
  const [user,SetUser]=useState('')
+ const [subject,setSubject]=useState('english')
   return (
     /*
       <h1>hello world</h1>
@@ -96,8 +100,20 @@ function App() {
         <AddUser SetUser={SetUser} />
         <DisplayUser user={user} />
         <Update />
-        <Arr />*/}
-        <UseAction />
+        <Arr />
+        <UseAction />*/}
+        <subjectContext.Provider value={subject}>
+          <select onChange={(event)=>setSubject(event.target.value)}>
+            <option value="">select subject</option>
+            <option value="english">english</option>
+            <option value="math">maths</option>
+            <option value="hindi">hindi</option>
+          </select>
+          <button onClick={()=>(setSubject(''))}>clear</button>
+          <h1>context api</h1>
+          <College />
+        </subjectContext.Provider>
+        <Toggle />
     </div>
   
   )
