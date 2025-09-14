@@ -11,7 +11,9 @@ import Checkboxes from './handlecheckbox'*/
 /*import Radio from './radio'
 import Loop from './loopandarray'
 import Reuse from './reusecomponentinloop'*/
-
+import { Routes, Route } from "react-router-dom";
+import Home from "./home";
+import About from "./about";
 import { useState } from "react";
 import Boot from "./bootsrap";
 import Changegrid from "./cardsty";
@@ -36,6 +38,7 @@ import UseAction from "./useactionstate";
 import College from "./contextApi";
 import { subjectContext } from "./ContextData";
 import Toggle from "./usetoggle2";
+import Navbar from "./navbarandheaderusingroutes";
 
 
 function App() {
@@ -101,7 +104,7 @@ function App() {
         <DisplayUser user={user} />
         <Update />
         <Arr />
-        <UseAction />*/}
+        <UseAction />
         <subjectContext.Provider value={subject}>
           <select onChange={(event)=>setSubject(event.target.value)}>
             <option value="">select subject</option>
@@ -113,7 +116,12 @@ function App() {
           <h1>context api</h1>
           <College />
         </subjectContext.Provider>
-        <Toggle />
+        <Toggle />*/}
+        <Navbar />
+        <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </div>
   
   )
